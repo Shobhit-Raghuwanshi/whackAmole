@@ -1,0 +1,29 @@
+body {
+  color: azure;
+  background-color: #333333;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../images/grass.jpg);
+  background-repeat: no-repeat;
+
+  border: 1px solid white;
+  justify-content: space-around;
+  align-items: center;
+  height: 618px;
+  width: 618px;
+}
+.square {
+  border: 1px solid white;
+  height: 200px;
+  width: 200px;
+}
+.mole {
+  background-image: url(../images/mole.png);
+}
